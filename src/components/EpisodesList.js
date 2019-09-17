@@ -4,6 +4,7 @@ import EpisodeCard from './EpisodeCard';
 
 
 
+
 // const Section = styled.section`
 //     border: 2px solid grey;
 // `
@@ -34,7 +35,7 @@ export default function EpisodesList() {
   }, []);
 
   return (
-    <section className="episode-list grid-view">
+    <section className="character-list grid-view">
     
      {episodes.map(ep => <EpisodeCard ep={ep} /> )}
     </section>

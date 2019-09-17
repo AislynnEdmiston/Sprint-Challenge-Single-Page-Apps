@@ -4,14 +4,7 @@ import CharacterCard from './CharacterCard';
 
 export default function CharacterList() {
   // TODO: Add useState to track data from useEffect
-   const [characters, setCharacters] = useState([{
-      id: '',
-      name: '',
-      image: '',
-      origin: {name: ''},
-      species: '',
-      status: '' 
-   }]);
+   const [characters, setCharacters] = useState([]);
 
   console.log(characters, 'CL')
 
