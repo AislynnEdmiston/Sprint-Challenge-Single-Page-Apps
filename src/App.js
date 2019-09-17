@@ -11,7 +11,7 @@ export default function App() {
   return (
     <main>
       <Header />
-      {/* <TabNav /> */}
+      <TabNav />
 
       <Route exact path='/' component={WelcomePage} />
       <Route path='/characters' component={CharacterList} />
